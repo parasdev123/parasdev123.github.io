@@ -1,0 +1,112 @@
+.header {
+  background-color: #313e59;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.testudo {
+  display: flex;
+  margin-right: 100px;
+}
+
+.myName {
+  display: flex;
+  font-size: 50px;
+  padding-right: 15px;
+  color: aliceblue;
+  font-family: Bowlby One SC;
+  margin-left: 50px;
+}
+
+.wrapper {
+  flex-wrap: wrap;
+}
+
+.containter {
+  background-color: #ffe3a6;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  padding: 15px;
+  width: 200px;
+}
+
+.pic {
+  border: solid 1px orange;
+  width: inherit;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.bio {
+  background-color: #fef9f4;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: Simonetta;
+}
+
+.roles {
+  font-family: Bowlby One SC;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.resume {
+  background-color: #fef9f4;
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  border: dashed 1px orange;
+}
+
+li {
+  font-family: Simonetta;
+}
+
+.jobTitle {
+  font-family: Arima Madurai;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .containter {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .pic {
+    width: 200px;
+  }
+
+  .bio {
+    padding: 15px;
+    margin-left: 50px;
+  }
+
+  .resume {
+    display: inherit;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 20px;
+  }
+}
